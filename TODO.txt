@@ -1,0 +1,4 @@
+1) Description des données
+2) Bibliographie, réduction des dimensions
+3) Bien poser les variables
+4) Compter le nombre d'observations par classes
