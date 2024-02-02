@@ -46,4 +46,4 @@ plt.imshow(assemb_E2[:, :, 7])
 plt.colorbar()
 plt.show()
 
-
+df.to_csv("projetstat2a.csv")
