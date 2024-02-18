@@ -4,7 +4,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 from mlxtend.plotting import plot_pca_correlation_graph
-from mlxtend.data import iris_data
 import plotly.express as px
 from matplotlib.patches import Circle
 
