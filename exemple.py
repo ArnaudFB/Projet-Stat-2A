@@ -10,10 +10,11 @@ power_maps_3D = np.load("power_maps.npy")
 
 N = power_maps_3D.shape[1]
 df = pd.DataFrame(power_maps_3D, columns = ["burn-up", "bore", "P_rel", "T_entree", "insertion_barres"] + list(range(N - 5)))
-print(N)
+print(power_maps_3D.shape)
 # On sélectionne la nappe de puissance située à la 4eme ligne du DataFrame 
 
 pm = df.values[4, 5:].reshape((17*6, 17*6, 14))
+print(pm.shape)
 
 # Inversion de l'axe vertical pour avoir les bonnes coordonées navales
 
